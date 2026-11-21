@@ -39,12 +39,13 @@ a { color: inherit; text-decoration: none; }
 .content { position: absolute; inset: 0; padding: 96px 120px 96px; display: flex; flex-direction: column; }
 
 /* Top bar */
-.top { position: absolute; top: 40px; left: 120px; right: 120px; display: flex; align-items: center; gap: 18px; z-index: 3; }
+.top { position: absolute; top: 40px; left: 120px; right: 120px; display: flex; align-items: center; gap: 0; z-index: 3; }
 .top img { height: 34px; }
-.top .div { width: 1px; height: 22px; background: #CBD5E1; }
+/* Co-brand lockup per Google Cloud co-branding rules: Google Cloud first (Google-led), pipe, ONGC; >= one "G" of clear space each side of the pipe; equal visual weight. */
+.top .div { width: 1.5px; height: 40px; background: #9AA0A6; margin: 0 28px; }
 .top .sec { font-family: var(--mono); font-size: 15px; font-weight: 700; letter-spacing: 2.5px; color: var(--muted); text-transform: uppercase; }
 .top .sp { flex: 1; }
-.top .ongc { height: 50px; border-radius: 8px; background: #8B1A1A; box-shadow: 0 4px 14px -6px rgba(15,23,42,0.35); }
+.top .ongc { height: 52px; }
 
 /* Type */
 .eyebrow { display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--blue); margin-top: 56px; }

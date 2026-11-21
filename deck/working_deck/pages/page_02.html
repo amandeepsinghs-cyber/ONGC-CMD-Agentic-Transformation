@@ -3,77 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Three Problems, Three Live Demos | ONGC</title>
+  <title>Live Demonstrations | ONGC</title>
   <link rel="stylesheet" href="../../assets/slide.css">
   <script src="../../assets/slide.js"></script>
+  <style>
+    .cols { margin-top: 30px; }
+    .col { padding: 0; overflow: hidden; }
+    .shot { position: relative; height: 210px; flex: none; overflow: hidden; }
+    .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .shot::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%); }
+    .shot .place { position: absolute; left: 22px; bottom: 16px; z-index: 2; color: #FFF; font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
+    .shot .place::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 4px rgba(255,255,255,.85); }
+    .shot .credit { position: absolute; right: 10px; top: 10px; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,.45); z-index: 2; font-size: 12px; color: rgba(255,255,255,.85); }
+    .body { flex: 1; display: flex; flex-direction: column; padding: 26px 36px 30px; }
+    .col .agent { font-size: 46px; margin-top: 6px; }
+    .col .problem { font-size: 25px; min-height: 0; margin-top: 10px; line-height: 1.38; }
+    .col .hero { margin-top: 18px; }
+    .col .big { font-size: 80px; }
+    .col .big small { font-size: 40px; }
+    .col .cap { font-size: 20px; margin-top: 8px; }
+    .vs { margin-top: 12px; gap: 8px; }
+    .vs .row { font-size: 18px; grid-template-columns: 170px 1fr 60px; }
+    .thesis { font-size: 40px; }
+    .btn { padding: 16px 24px; font-size: 22px; }
+    .shot.hq img { filter: contrast(1.25) saturate(1.15) brightness(1.02); object-position: center 55%; transform: scale(1.35); }
+    .shot.field img { object-position: 40% 50%; }
+    .pin { position: absolute; z-index: 2; left: 46%; top: 38%; width: 18px; height: 18px; border-radius: 50%; background: #188038; box-shadow: 0 0 0 6px rgba(24,128,56,.35), 0 0 0 14px rgba(24,128,56,.15); }
+  </style>
 </head>
-<!-- Numbers and sources: ../../../NUMBERS_AND_SOURCES.md and the appendix slide (page_05.html) -->
+<!-- Numbers and sources: ../../../NUMBERS_AND_SOURCES.md and the appendix slide (page_08.html) -->
 <body data-prev="page_01.html" data-next="page_03.html">
   <div class="stage">
-    <div class="bg"><img src="../../assets/media/wip/image78.png" alt=""></div>
+    <div class="bg"></div>
     <div class="top">
       <img src="../../assets/media/wip/image25.png" alt="Google Cloud">
-      <span class="div"></span><span class="sec">Three problems · three live demos</span>
-      <span class="sp"></span>
+      <span class="div"></span>
       <img class="ongc" src="../../assets/media/ongc_logo.svg" alt="ONGC">
+      <span class="sp"></span><span class="sec">Live demonstrations</span>
     </div>
 
     <div class="content">
-      <h1 class="h1" style="margin-top:56px; font-size:68px">Three problems. <span class="grad">Solved live, today.</span></h1>
+      <h1 class="h1" style="margin-top:44px; font-size:64px">Live <span class="grad">demonstrations</span>.</h1>
 
       <div class="cols">
-        <!-- REDUCE COST -->
+        <!-- REDUCE COST · the rig -->
         <article class="col c-blue">
-          <div class="verb">Reduce cost</div>
-          <div class="agent">Drishti AI</div>
-          <p class="problem">Every hour a rig sits idle burns crores.</p>
-          <div class="hero">
-            <div class="cap" style="margin-top:0">Drilling budget <b>₹16,565 Cr</b> FY26 actual · <b>₹15,150 Cr</b> FY27 plan</div>
-            <div class="vs">
-              <div class="row"><span>ONGC NPT</span><span class="track"><i style="width:92%; background:#EE4D5D"></i></span><b>23%</b></div>
-              <div class="row"><span>Global benchmark</span><span class="track"><i style="width:36%; background:#81C995"></i></span><b>9%</b></div>
+          <div class="shot"><img src="../../assets/media/photos/drilling_rig.jpg" alt="Offshore drilling rig"><span class="place">The rig</span></div>
+          <div class="body">
+            <div class="verb">Reduce cost</div>
+            <div class="agent">Drishti AI</div>
+            <p class="problem">Every hour a rig sits idle burns crores.</p>
+            <div class="hero">
+              <div class="cap" style="margin-top:0">Drilling budget <b>₹16,565 Cr</b> FY26 actual · <b>₹15,150 Cr</b> FY27 plan</div>
+              <div class="vs">
+                <div class="row"><span>ONGC NPT</span><span class="track"><i style="width:92%; background:#EE4D5D"></i></span><b>23%</b></div>
+                <div class="row"><span>Global benchmark</span><span class="track"><i style="width:36%; background:#34A853"></i></span><b>9%</b></div>
+              </div>
+              <div class="big grad" style="margin-top:12px">₹350<small> Cr</small></div>
+              <div class="cap">a year: Drishti AI saves 10% of NPT losses. <b>₹2,100 Cr</b> a year at the global benchmark.</div>
             </div>
-            <div class="big grad" style="margin-top:20px">₹350<small> Cr</small></div>
-            <div class="cap">a year: Drishti AI saves 10% of NPT losses. <b>₹2,100 Cr</b> a year at the global benchmark.</div>
+            <a class="btn" href="https://sagar-drishti-248430093579.us-central1.run.app" target="_blank" rel="noopener">Launch Drishti AI ↗ <span>live</span></a>
           </div>
-          <a class="btn" href="https://sagar-drishti-248430093579.us-central1.run.app" target="_blank" rel="noopener">Launch Drishti AI ↗ <span>live</span></a>
         </article>
 
-        <!-- INCREASE REVENUE -->
+        <!-- INCREASE REVENUE · the field -->
         <article class="col c-green">
-          <div class="verb">Increase revenue</div>
-          <div class="agent">Urvi</div>
-          <p class="problem">Sick wells in mature fields stop producing when help comes too late.</p>
-          <div class="hero">
-            <div class="big grad">₹1,200<small> Cr</small></div>
-            <div class="cap">a year for every <b>1%</b> of production protected</div>
-            <div class="spark">
-              <svg viewBox="0 0 400 120" preserveAspectRatio="none">
-                <path d="M0,20 C120,30 220,60 400,110" fill="none" stroke="#EE4D5D" stroke-width="3" stroke-dasharray="7 6"/>
-                <path d="M0,20 C120,30 170,42 200,48 L205,24 C260,28 330,38 400,52" fill="none" stroke="#188038" stroke-width="4"/>
-                <circle cx="203" cy="36" r="7" fill="#188038"/>
-              </svg>
-              <div class="row"><span>Fields decline 6–7% a year</span><span style="color:#188038">Timely intervention</span></div>
+          <div class="shot field"><img src="../../assets/media/photos/geleki_satellite.png" alt="Satellite view of Geleki field, Assam"><span class="pin"></span><span class="place">Geleki field, Assam</span><span class="credit">Imagery: Esri, Maxar</span></div>
+          <div class="body">
+            <div class="verb">Increase revenue</div>
+            <div class="agent">Urvi</div>
+            <p class="problem">Sick wells in mature fields stop producing when help comes too late.</p>
+            <div class="hero">
+              <div class="big grad">₹1,200<small> Cr</small></div>
+              <div class="cap">a year for every <b>1%</b> of production protected</div>
+              <div class="spark">
+                <svg viewBox="0 0 400 120" preserveAspectRatio="none">
+                  <path d="M0,20 C120,30 220,60 400,110" fill="none" stroke="#EE4D5D" stroke-width="3" stroke-dasharray="7 6"/>
+                  <path d="M0,20 C120,30 170,42 200,48 L205,24 C260,28 330,38 400,52" fill="none" stroke="#188038" stroke-width="4"/>
+                  <circle cx="203" cy="36" r="7" fill="#188038"/>
+                </svg>
+                <div class="row"><span>Fields decline 6–7% a year</span><span style="color:#188038">Timely intervention</span></div>
+              </div>
             </div>
+            <a class="btn" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Launch Urvi ↗ <span>live</span></a>
           </div>
-          <a class="btn" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Launch Urvi ↗ <span>live</span></a>
         </article>
 
-        <!-- GOVERNANCE -->
+        <!-- GOVERNANCE · corporate HQ -->
         <article class="col c-violet">
-          <div class="verb">Financial &amp; people governance</div>
-          <div class="agent">Yukti</div>
-          <p class="problem">Decisions on people and capital are made on scattered data.</p>
-          <div class="hero">
-            <div class="thesis">Right people.<br>Right jobs.<br><span class="grad">Right financial decisions.</span></div>
-            <div class="cap">across <b>₹40,000 Cr</b> a year of people cost and capex</div>
+          <div class="shot hq"><img src="../../assets/media/photos/ongc_hq_vasant_kunj.jpg" alt="ONGC corporate headquarters, Vasant Kunj, New Delhi"><span class="place">ONGC Corporate HQ, New Delhi</span><span class="credit">Photo: Biswarup Ganguly, CC BY 3.0</span></div>
+          <div class="body">
+            <div class="verb">Financial &amp; people governance</div>
+            <div class="agent">Yukti</div>
+            <p class="problem">Decisions on people and capital are made on scattered data.</p>
+            <div class="hero">
+              <div class="thesis">Right people.<br>Right jobs.<br><span class="grad">Right financial decisions.</span></div>
+              <div class="cap">across <b>₹40,000 Cr</b> a year of people cost and capex</div>
+            </div>
+            <a class="btn" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Launch Yukti ↗ <span>sign-in</span></a>
           </div>
-          <a class="btn" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Launch Yukti ↗ <span>sign-in</span></a>
         </article>
       </div>
     </div>
     <div class="foot">Sources: ONGC Annual Report FY26 · CAG Report 39/2015 · PSUWatch (CMD briefing, Aug 2026). Details in appendix.</div>
   </div>
-  <nav class="hud"><a href="page_01.html">◀</a><span class="n">3 / 5</span><a class="next" href="page_03.html">Next ▶</a></nav>
+  <nav class="hud"><a href="page_01.html">◀</a><span class="n">3 / 8</span><a class="next" href="page_03.html">Next ▶</a></nav>
 </body>
 </html>
