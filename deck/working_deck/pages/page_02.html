@@ -4,81 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Three Problems, Three Live Demos | ONGC</title>
-  <link rel="stylesheet" href="../../assets/cmd.css">
-  <script src="../../assets/cmd.js"></script>
+  <link rel="stylesheet" href="../../assets/slide.css">
+  <script src="../../assets/slide.js"></script>
 </head>
-<body>
-  <header class="mast">
-    <a href="../../index.html"><img src="../../assets/media/wip/image25.png" alt="Google Cloud"></a>
-    <span class="div"></span>
-    <a class="kicker" href="../../index.html">03 // Problems &amp; Live Demos</a>
-    <span class="sp"></span>
-    <button class="btn" onclick="toggleTheme()">Theme</button>
-    <a class="btn" data-prev href="page_01.html">&larr; Prev</a>
-    <span class="count">3 / 5</span>
-    <a class="btn primary" data-next href="page_03.html">Next &rarr;</a>
-  </header>
+<!-- Numbers and sources: ../../../NUMBERS_AND_SOURCES.md and the appendix slide (page_05.html) -->
+<body data-prev="page_01.html" data-next="page_03.html">
+  <div class="stage">
+    <div class="bg"><img src="../../assets/media/wip/image78.png" alt=""></div>
+    <div class="top">
+      <img src="../../assets/media/wip/image25.png" alt="Google Cloud">
+      <span class="div"></span><span class="sec">Three problems · three live demos</span>
+      <span class="sp"></span>
+      <img class="ongc" src="../../assets/media/ongc_logo.svg" alt="ONGC">
+    </div>
 
-  <!-- Every number on this page is traced in ../../../NUMBERS_AND_SOURCES.md -->
-  <main class="page">
-    <div class="eyebrow">The problem, the number, the demo</div>
-    <h1>Three problems worth solving <span class="grad">— live, today</span></h1>
+    <div class="content">
+      <h1 class="h1" style="margin-top:56px; font-size:68px">Three problems. <span class="grad">Solved live, today.</span></h1>
 
-    <section class="grid3">
-      <!-- COST -->
-      <article class="card cost">
-        <div class="pillar">01 · Decrease cost</div>
-        <h2 class="agent">Sagar Drishti<small>Real-time drilling</small></h2>
-        <p><span class="label">Problem</span><br>Idle rig time (NPT) is the most expensive hour in drilling, and deepwater raises the stakes.</p>
-        <div class="stats">
-          <div class="stat"><b>~₹16,500 Cr</b><span>ONGC drilling spend, FY26<sup>[1]</sup></span></div>
-          <div class="stat"><b>25–30%</b><span>offshore rig time historically lost to NPT<sup>[2]</sup></span></div>
-          <div class="stat"><b>₹400–500 Cr</b><span>a year if just 10% of that NPT is recovered <span class="tag">illustrative</span><sup>[1,2]</sup></span></div>
-          <div class="stat"><b>$125–150 Mn</b><span>per deepwater well; 87 deepwater wells planned by FY31<sup>[3,4]</sup></span></div>
-        </div>
-        <div class="proof">ONGC has already seen it work: its Real Time Drilling Operations Centre made 158 interventions and saved <b>393 rig days</b><sup>[5]</sup>.</div>
-        <a class="demo" href="https://sagar-drishti-248430093579.us-central1.run.app" target="_blank" rel="noopener">Open Sagar Drishti demo ↗ <span class="note">live</span></a>
-      </article>
+      <div class="cols">
+        <!-- REDUCE COST -->
+        <article class="col c-blue">
+          <div class="verb">Reduce cost</div>
+          <div class="agent">Drishti AI</div>
+          <p class="problem">Every hour a rig sits idle burns crores.</p>
+          <div class="hero">
+            <div class="cap" style="margin-top:0">Drilling budget <b>₹16,565 Cr</b> FY26 actual · <b>₹15,150 Cr</b> FY27 plan</div>
+            <div class="vs">
+              <div class="row"><span>ONGC NPT</span><span class="track"><i style="width:92%; background:#EE4D5D"></i></span><b>23%</b></div>
+              <div class="row"><span>Global benchmark</span><span class="track"><i style="width:36%; background:#81C995"></i></span><b>9%</b></div>
+            </div>
+            <div class="big grad" style="margin-top:20px">₹350<small> Cr</small></div>
+            <div class="cap">a year: Drishti AI saves 10% of NPT losses. <b>₹2,100 Cr</b> a year at the global benchmark.</div>
+          </div>
+          <a class="btn" href="https://sagar-drishti-248430093579.us-central1.run.app" target="_blank" rel="noopener">Launch Drishti AI ↗ <span>live</span></a>
+        </article>
 
-      <!-- REVENUE -->
-      <article class="card rev">
-        <div class="pillar">02 · Boost revenue</div>
-        <h2 class="agent">Urvi<small>Sick wells &amp; workovers</small></h2>
-        <p><span class="label">Problem</span><br>Brownfield wells decline every year. A sick well not treated in time stops producing, and the barrels are lost.</p>
-        <div class="stats">
-          <div class="stat"><b>6–7%</b><span>natural decline of existing fields every year<sup>[3]</sup></span></div>
-          <div class="stat"><b>20.5 MMT</b><span>crude oil + 20.0 BCM gas produced, FY26<sup>[5]</sup></span></div>
-          <div class="stat"><b>~₹1,200 Cr</b><span>revenue a year for every 1% of production protected<sup>[5]</sup></span></div>
-          <div class="stat"><b>2,300+</b><span>workover jobs a year to prioritise<sup>[6]</sup></span></div>
-        </div>
-        <a class="demo" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Open Urvi demo ↗ <span class="note">live</span></a>
-      </article>
+        <!-- INCREASE REVENUE -->
+        <article class="col c-green">
+          <div class="verb">Increase revenue</div>
+          <div class="agent">Urvi</div>
+          <p class="problem">Sick wells in mature fields stop producing when help comes too late.</p>
+          <div class="hero">
+            <div class="big grad">₹1,200<small> Cr</small></div>
+            <div class="cap">a year for every <b>1%</b> of production protected</div>
+            <div class="spark">
+              <svg viewBox="0 0 400 120" preserveAspectRatio="none">
+                <path d="M0,20 C120,30 220,60 400,110" fill="none" stroke="#EE4D5D" stroke-width="3" stroke-dasharray="7 6"/>
+                <path d="M0,20 C120,30 170,42 200,48 L205,24 C260,28 330,38 400,52" fill="none" stroke="#188038" stroke-width="4"/>
+                <circle cx="203" cy="36" r="7" fill="#188038"/>
+              </svg>
+              <div class="row"><span>Fields decline 6–7% a year</span><span style="color:#188038">Timely intervention</span></div>
+            </div>
+          </div>
+          <a class="btn" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Launch Urvi ↗ <span>live</span></a>
+        </article>
 
-      <!-- GOVERNANCE -->
-      <article class="card gov">
-        <div class="pillar">03 · Financial &amp; people governance</div>
-        <h2 class="agent">Yukti<small>Finance &amp; HR intelligence</small></h2>
-        <p><span class="label">Problem</span><br>Finance and workforce answers sit in separate systems, reports and teams. Getting one trusted answer takes days.</p>
-        <div class="stats">
-          <div class="stat"><b>Finance</b><span>revenue drivers, portfolio mix, production sensitivity, DCF</span></div>
-          <div class="stat"><b>People</b><span>workforce analytics and talent match against role descriptions</span></div>
-          <div class="stat"><b>Governed</b><span>role-based access, every answer traced to its source</span></div>
-        </div>
-        <a class="demo" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Open Yukti demo ↗ <span class="note">Google sign-in</span></a>
-      </article>
-    </section>
-
-    <footer class="sources">
-      <span class="label">Sources</span>
-      <ol>
-        <li>PSUWatch, 31 Aug 2026, ONGC CMD press briefing: FY26 drilling ₹9,496 Cr development + ₹7,069 Cr exploratory; ~₹20,000 Cr a year on deepwater to FY31. <a href="https://psuwatch.com/newsupdates/ongc-bets-rs-1-lakh-cr-on-deepwater-but-says-only-a-big-discovery-will-lift-its-flat-output" target="_blank" rel="noopener">link</a></li>
-        <li>CAG Report No. 39 of 2015, §5.3, p. 40–41: offshore rig NPT 26.16–28.72% (2010-14), against a 5–12% benchmark.</li>
-        <li>PIB, “Samudra Manthan – National Offshore Exploration Scheme”, 3 Aug 2026. <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc202683942101.pdf" target="_blank" rel="noopener">link</a></li>
-        <li>New Indian Express, 31 Aug 2026: ONGC plans to drill 87 deepwater wells by 2031. <a href="https://www.newindianexpress.com/business/2026/Aug/31/ongc-plans-1-lakh-crore-investment-to-drill-87-wells-by-2031" target="_blank" rel="noopener">link</a></li>
-        <li>ONGC Integrated Annual Report 2025-26: production (Directors’ Report), sales (p. 21), RTDOC (p. 99).</li>
-        <li>ONGC Integrated Annual Report 2024-25, Well Services: 2,337 workover jobs in FY25.</li>
-      </ol>
-    </footer>
-  </main>
+        <!-- GOVERNANCE -->
+        <article class="col c-violet">
+          <div class="verb">Financial &amp; people governance</div>
+          <div class="agent">Yukti</div>
+          <p class="problem">Decisions on people and capital are made on scattered data.</p>
+          <div class="hero">
+            <div class="thesis">Right people.<br>Right jobs.<br><span class="grad">Right financial decisions.</span></div>
+            <div class="cap">across <b>₹40,000 Cr</b> a year of people cost and capex</div>
+          </div>
+          <a class="btn" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Launch Yukti ↗ <span>sign-in</span></a>
+        </article>
+      </div>
+    </div>
+    <div class="foot">Sources: ONGC Annual Report FY26 · CAG Report 39/2015 · PSUWatch (CMD briefing, Aug 2026). Details in appendix.</div>
+  </div>
+  <nav class="hud"><a href="page_01.html">◀</a><span class="n">3 / 5</span><a class="next" href="page_03.html">Next ▶</a></nav>
 </body>
 </html>

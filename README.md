@@ -10,15 +10,18 @@ Open [`deck/index.html`](deck/index.html) in Chrome. Use ← / → to move betwe
 | # | Slide | File |
 |---|---|---|
 | 01 | Title (unchanged from the ONGC presentation) | `deck/working_deck/pages/page_00.html` |
-| 02 | The agentic organisation: cost · revenue · governance | `deck/working_deck/pages/page_01.html` |
-| 03 | Three problems, three live demos (with sources) | `deck/working_deck/pages/page_02.html` |
-| 04 | Agentic workforce (33 roles) | `deck/working_deck/pages/page_03.html` |
-| 05 | Gemini Enterprise, the log digitisation demo, and the proposal | `deck/working_deck/pages/page_04.html` |
+| 02 | Prelude: reduce cost · increase revenue · governance → Drishti AI, Urvi, Yukti | `deck/working_deck/pages/page_01.html` |
+| 03 | Three problems: problem, headline number, demo link | `deck/working_deck/pages/page_02.html` |
+| 04 | Agentic workforce + well log digitisation demo | `deck/working_deck/pages/page_03.html` |
+| 05 | Gemini Enterprise: no-code to high-code, and the proposal | `deck/working_deck/pages/page_04.html` |
+| A | Appendix: numbers & sources | `deck/working_deck/pages/page_05.html` |
+
+The full 33-role workforce map is linked from slide 04: `deck/working_deck/pages/workforce_map.html`.
 
 ## Live demos
 | Pillar | Agent | Link |
 |---|---|---|
-| Decrease cost | Sagar Drishti (real-time drilling) | https://sagar-drishti-248430093579.us-central1.run.app |
+| Reduce cost | Drishti AI (real-time drilling) | https://sagar-drishti-248430093579.us-central1.run.app |
 | Boost revenue | Urvi (sick wells & workovers, ONGC Assam) | https://wellpulse-app-806277846965.us-central1.run.app |
 | Financial & people governance | Yukti (finance & HR) | https://yukti-ai-b6cmgrx7ka-el.a.run.app (Google sign-in) |
 | Agentic workforce | Well log digitiser | Runs inside Gemini Enterprise |

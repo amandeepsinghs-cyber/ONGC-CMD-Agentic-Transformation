@@ -88,7 +88,18 @@ h1 { margin: 0; font-size: clamp(34px, 3.6vw, 54px); font-weight: 800; line-heig
 .stat { display: grid; grid-template-columns: 132px 1fr; gap: 12px; align-items: baseline; padding: 10px 0; border-top: 1px dashed var(--line); }
 .stat b { font-size: 22px; font-weight: 800; color: var(--text); white-space: nowrap; }
 .stat span { font-size: 14.5px; line-height: 1.45; }
+.stat span b { font-size: inherit; font-weight: 800; white-space: normal; }
+.stat .tag { font-size: 10.5px; padding: 1px 7px; }
 sup { font-family: var(--font-mono); font-size: 10.5px; color: var(--blue); margin-left: 2px; }
+.bench { display: flex; flex-direction: column; gap: 8px; padding: 12px 0; border-top: 1px dashed var(--line); }
+.bar { display: grid; grid-template-columns: 112px 1fr 62px; gap: 10px; align-items: center; font-size: 13.5px; }
+.bar .who { color: var(--muted); }
+.bar .track { height: 10px; border-radius: 5px; background: rgba(148, 163, 184, 0.15); overflow: hidden; }
+.bar .track i { display: block; height: 100%; border-radius: 5px; }
+.bar .hi { background: #EE4D5D; } .bar .mid { background: #F29900; } .bar .ok { background: #5BB974; }
+.bar b { font-size: 15px; font-weight: 800; color: var(--text); text-align: right; white-space: nowrap; }
+.bench .foot { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.bench .foot b { color: var(--text); }
 .proof { font-size: 14.5px; line-height: 1.5; padding: 12px 14px; border-radius: 10px; background: rgba(91, 185, 116, 0.10); border: 1px solid rgba(91, 185, 116, 0.35); }
 .tag { display: inline-block; font-family: var(--font-mono); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; vertical-align: middle; }
 

@@ -24,11 +24,30 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 | 2.1 | ONGC annual production | **20.501 MMT crude** (incl. JV share) and **19.966 BCM gas**, FY26 | ✅ | ONGC Integrated Annual Report 2025-26, Directors' Report |
 | 2.2 | "1% dent saves this much" | FY26 standalone sales: crude ₹83,810 Cr + gas ₹36,330 Cr = ₹1,20,140 Cr. **1% ≈ ₹1,200 Cr a year** | ✅ (our arithmetic on reported figures) | ONGC Integrated Annual Report 2025-26, p. 21, "A decade of operational and financial excellence" |
 | 2.3 | Mature fields decline | Existing fields decline naturally by **~6–7% a year** | ✅ (national figure, not ONGC-specific) | PIB backgrounder, Samudra Manthan, 03-Aug-2026 |
-| 2.4 | Intervention volume | **2,337 workover jobs in FY25** (highest ever) vs 2,110 in FY24; 12,515 stimulation jobs in FY25; 12,963 stimulation jobs in FY26 | ✅ | ONGC Integrated Annual Report 2024-25 (Well Services) and 2025-26 |
-| 2.5 | ">10,000 producing wells" | No primary source for the producing-well count. Our earlier research says >10,000 is plausible for *cumulative* well stock, not *producing* wells | ❌ Don't use it. Use "2,300+ workovers a year" instead | Internal note: `workover_well_intervention/Problem Statement.md` (secondary) |
-| 2.6 | "₹25–30 lakh per intervention" | Not published | ❌ Keep it verbal only | — |
+| 2.4 | "Workovers > 2,000 a year" | **2,320 wells serviced through workovers in FY26** (target 2,304); **2,337 workover jobs in FY25** (highest ever); 2,110 in FY24 | ✅ | ONGC Integrated Annual Report 2025-26, Directors' Report §9 (Well Services); Annual Report 2024-25, Well Services |
+| 2.4b | Workover spend (new) | **"Workover Operations" expense ₹21,909 Mn (₹2,191 Cr) in FY26**, vs ₹20,433 Mn (₹2,043 Cr) in FY25 | ✅ | ONGC Integrated Annual Report 2025-26, production & operating expenditure annexure (two places in the report) |
+| 2.5 | "Producing wells > 10,000" | **No public source found.** ONGC's annual reports FY16–FY26 give no producing-well count. MoPNG's *Indian Petroleum & Natural Gas Statistics* (2018 edition I downloaded) is a scanned image with no searchable text. The DGH National Data Repository has a well inventory, but it needs a registered login, which I don't have. Our earlier internal estimate is ~5,000–7,500 producers (unverified inference) | ❌ **Not verified.** Needs your NDR login or an ONGC internal figure | NDR: https://www.ndrdgh.gov.in (login) |
+| 2.6 | "₹25–30 lakh per intervention" | Not published per job. Rough arithmetic: ₹2,191 Cr ÷ 2,320 wells ≈ **₹94 lakh per well serviced**, but that expense line probably covers all workover operations (rigs, crews, services), not just the job | ❌ Per-job cost not verified. Don't quote ₹25–30 lakh; use the ₹2,191 Cr total | Derived from 2.4 and 2.4b |
 
-## 3 · Recommended headline numbers (for your approval)
+## 3 · Governance: right people in the right jobs, right financial decisions (Yukti)
+
+| # | Number | Value | Status | Source |
+|---|---|---|---|---|
+| 3.1 | Workforce | 14,063 employees (executives) + 9,930 workers = **~24,000**, as of 31-Mar-2026 | ✅ | ONGC Integrated Annual Report 2025-26, BRSR §24, p. 139 |
+| 3.2 | Employee benefit expense | **₹1,02,107 Mn = ₹10,211 Cr**, FY26 (standalone) | ✅ | ONGC Integrated Annual Report 2025-26, notes to the standalone accounts (expenses by nature) |
+| 3.3 | 1% productivity | ≈ **₹100 Cr a year** | ⚠️ Illustrative (our arithmetic) | Derived from 3.2 |
+| 3.4 | Capex plan FY27 | **₹30,000 Cr** | ✅ (press report of the CMD briefing) | PSUWatch, 31-Aug-2026 |
+| 3.5 | 1% better capital allocation | ≈ **₹300 Cr a year** | ⚠️ Illustrative (our arithmetic) | Derived from 3.4 |
+| 3.6 | Exploration costs written off | **₹97,288 Mn = ₹9,729 Cr**, FY26 (survey ₹1,493 Cr + exploratory wells ₹8,236 Cr) | ✅ | ONGC Integrated Annual Report 2025-26, p. 21 |
+
+## 4 · Sagar Drishti value model (requested 21-Nov)
+- Base: **FY27 drilling plan ₹15,150 Cr** (FY26 actual ₹16,565 Cr), from PSUWatch, 31-Aug-2026
+- NPT loss at 23% (CAG fleet-wide high, 2011-12: 23.04%): 15,150 × 23% = **₹3,485 Cr a year**
+- Sagar Drishti saves 10% of NPT losses: **₹348 Cr a year (~₹350 Cr)**
+- If ONGC reaches the international benchmark of ~9% (midpoint of CAG's 5–12%): 15,150 × (23% − 9%) = **₹2,121 Cr a year (~₹2,100 Cr)**
+- ⚠️ All illustrative: NPT is a share of rig time, used here as a proxy for drilling spend. The CAG fleet figure was 19.30% in 2013-14, the latest year audited
+
+## 5 · Recommended headline numbers (for your approval)
 - **Cost (Drishti):** ~₹16,500 Cr drilling spend in FY26 · historically 25–30% offshore rig time lost to NPT (CAG) · ONGC's RTDOC has already saved 393 rig days
 - **Revenue (Urvi):** 20.5 MMT crude + 20.0 BCM gas · every 1% of production ≈ ₹1,200 Cr a year · fields decline 6–7% a year
 - **Governance (Yukti):** no numbers needed on the slide
