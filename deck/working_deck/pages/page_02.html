@@ -7,28 +7,42 @@
   <link rel="stylesheet" href="../../assets/slide.css">
   <script src="../../assets/slide.js"></script>
   <style>
-    .cols { margin-top: 30px; }
+    .cols { margin-top: 24px; }
+    .foot { bottom: 26px; }
     .col { padding: 0; overflow: hidden; }
-    .shot { position: relative; height: 210px; flex: none; overflow: hidden; }
+    .shot { position: relative; height: 250px; flex: none; overflow: hidden; }
     .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .shot::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%); }
     .shot .place { position: absolute; left: 22px; bottom: 16px; z-index: 2; color: #FFF; font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
     .shot .place::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 4px rgba(255,255,255,.85); }
     .shot .credit { position: absolute; right: 10px; top: 10px; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,.45); z-index: 2; font-size: 12px; color: rgba(255,255,255,.85); }
-    .body { flex: 1; display: flex; flex-direction: column; padding: 26px 36px 30px; }
-    .col .agent { font-size: 46px; margin-top: 6px; }
-    .col .problem { font-size: 25px; min-height: 0; margin-top: 10px; line-height: 1.38; }
-    .col .hero { margin-top: 18px; }
-    .col .big { font-size: 80px; }
-    .col .big small { font-size: 40px; }
+    .body { flex: 1; display: flex; flex-direction: column; padding: 18px 34px 24px; }
+    .col .agent { font-size: 44px; margin-top: 4px; }
+    .col .problem { font-size: 23px; min-height: 0; margin-top: 6px; line-height: 1.36; color: #334155; }
+    .col .hero { margin-top: 10px; }
+    .col .big { font-size: 62px; }
+    .col .big small { font-size: 36px; }
     .col .cap { font-size: 20px; margin-top: 8px; }
-    .vs { margin-top: 12px; gap: 8px; }
+    .vs { margin-top: 10px; gap: 6px; }
     .vs .row { font-size: 18px; grid-template-columns: 170px 1fr 60px; }
-    .thesis { font-size: 40px; }
+    .thesis { font-size: 36px; }
     .btn { padding: 16px 24px; font-size: 22px; }
     .shot.hq img { filter: contrast(1.25) saturate(1.15) brightness(1.02); object-position: center 55%; transform: scale(1.35); }
     .shot.field img { object-position: 40% 50%; }
     .pin { position: absolute; z-index: 2; left: 46%; top: 38%; width: 18px; height: 18px; border-radius: 50%; background: #188038; box-shadow: 0 0 0 6px rgba(24,128,56,.35), 0 0 0 14px rgba(24,128,56,.15); }
+    .facts { margin-top: 14px; border-top: 1px solid var(--line); }
+    .facts .f { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 19px; color: var(--muted); }
+    .facts .f b { font-size: 21px; font-weight: 700; color: var(--white); white-space: nowrap; }
+    .col .hero .cap { min-height: 0; }
+    .col .btn { margin-top: auto; }
+    .col .facts { margin-bottom: 18px; }
+    .prod { margin-top: 14px; margin-bottom: 18px; border-top: 1px solid var(--line); padding-top: 8px; }
+    .prod-h { display: flex; justify-content: space-between; align-items: baseline; white-space: nowrap; font-size: 16px; color: var(--muted); margin-bottom: 4px; }
+    .prod-h b { font-size: 18px; color: var(--white); }
+    .scen { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 8px; }
+    .scen span { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px; border-radius: 10px; background: #F1F8F3; border: 1px solid #CEEAD6; }
+    .scen i { font-style: normal; font-size: 13px; color: #188038; font-weight: 700; letter-spacing: .3px; }
+    .scen b { font-size: 20px; color: var(--white); }
   </style>
 </head>
 <!-- Numbers and sources: ../../../NUMBERS_AND_SOURCES.md and the appendix slide (page_08.html) -->
@@ -43,7 +57,7 @@
     </div>
 
     <div class="content">
-      <h1 class="h1" style="margin-top:44px; font-size:64px">Live <span class="grad">demonstrations</span>.</h1>
+      <h1 class="h1" style="margin-top:18px; font-size:54px">Live <span class="grad">demonstrations</span>.</h1>
 
       <div class="cols">
         <!-- REDUCE COST · the rig -->
@@ -52,16 +66,12 @@
           <div class="body">
             <div class="verb">Reduce cost</div>
             <div class="agent">Drishti AI</div>
-            <p class="problem">Every hour a rig sits idle burns crores.</p>
+            <p class="problem">Watches the well live and warns before mud-weight and kick risks cost rig days.</p>
             <div class="hero">
-              <div class="cap" style="margin-top:0">Drilling budget <b>₹16,565 Cr</b> FY26 actual · <b>₹15,150 Cr</b> FY27 plan</div>
-              <div class="vs">
-                <div class="row"><span>ONGC NPT</span><span class="track"><i style="width:92%; background:#EE4D5D"></i></span><b>23%</b></div>
-                <div class="row"><span>Global benchmark</span><span class="track"><i style="width:36%; background:#34A853"></i></span><b>9%</b></div>
-              </div>
-              <div class="big grad" style="margin-top:12px">₹350<small> Cr</small></div>
-              <div class="cap">a year: Drishti AI saves 10% of NPT losses. <b>₹2,100 Cr</b> a year at the global benchmark.</div>
+              <div class="big grad">₹700<small> Cr</small></div>
+              <div class="cap">a year: Drishti AI saves 20% of NPT losses</div>
             </div>
+            <div class="facts"><div class="f"><span>Drilling budget FY26 · FY27</span><b>₹16,565 · ₹15,150 Cr</b></div><div class="f"><span>NPT: ONGC vs global benchmark</span><b>23% vs 9%</b></div><div class="f"><span>At the global benchmark</span><b>₹2,100 Cr a year</b></div></div>
             <a class="btn" href="https://sagar-drishti-248430093579.us-central1.run.app" target="_blank" rel="noopener">Launch Drishti AI ↗ <span>live</span></a>
           </div>
         </article>
@@ -71,21 +81,17 @@
           <div class="shot field"><img src="../../assets/media/photos/geleki_satellite.png" alt="Satellite view of Geleki field, Assam"><span class="pin"></span><span class="place">Geleki field, Assam</span><span class="credit">Imagery: Esri, Maxar</span></div>
           <div class="body">
             <div class="verb">Increase revenue</div>
-            <div class="agent">Urvi</div>
-            <p class="problem">Sick wells in mature fields stop producing when help comes too late.</p>
+            <div class="agent">Urvi AI</div>
+            <p class="problem">Finds sick wells, diagnoses why, and ranks the next workover by barrels recovered.</p>
             <div class="hero">
-              <div class="big grad">₹1,200<small> Cr</small></div>
-              <div class="cap">a year for every <b>1%</b> of production protected</div>
-              <div class="spark">
-                <svg viewBox="0 0 400 120" preserveAspectRatio="none">
-                  <path d="M0,20 C120,30 220,60 400,110" fill="none" stroke="#EE4D5D" stroke-width="3" stroke-dasharray="7 6"/>
-                  <path d="M0,20 C120,30 170,42 200,48 L205,24 C260,28 330,38 400,52" fill="none" stroke="#188038" stroke-width="4"/>
-                  <circle cx="203" cy="36" r="7" fill="#188038"/>
-                </svg>
-                <div class="row"><span>Fields decline 6–7% a year</span><span style="color:#188038">Timely intervention</span></div>
-              </div>
+              <div class="big grad">₹1,200–6,000<small> Cr</small></div>
+              <div class="scen"><span><i>Conservative · 1%</i><b>₹1,200 Cr</b></span><span><i>Middle · 3%</i><b>₹3,600 Cr</b></span><span><i>Optimistic · 5%</i><b>₹6,000 Cr</b></span></div>
             </div>
-            <a class="btn" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Launch Urvi ↗ <span>live</span></a>
+            <div class="prod">
+              <div class="prod-h"><span>Crude oil production, MMT · ONGC fields</span><b>Steady ~19.5</b></div>
+              <svg viewBox="0 0 468 78" width="100%" height="78"><defs><linearGradient id="g27" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#188038"/><stop offset="1" stop-color="#34A853"/></linearGradient></defs><line x1="0" y1="62" x2="468" y2="62" stroke="#E2E8F0"/><rect x="0.0" y="14.7" width="56.6" height="47.3" rx="4" fill="#CBD5E1"/><text x="28.3" y="11.7" text-anchor="middle" font-size="11" fill="#475569">20.3</text><text x="28.3" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY21</text><rect x="68.6" y="16.4" width="56.6" height="45.6" rx="4" fill="#CBD5E1"/><text x="96.9" y="13.4" text-anchor="middle" font-size="11" fill="#475569">19.5</text><text x="96.9" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY22</text><rect x="137.1" y="16.3" width="56.6" height="45.7" rx="4" fill="#CBD5E1"/><text x="165.4" y="13.3" text-anchor="middle" font-size="11" fill="#475569">19.6</text><text x="165.4" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY23</text><rect x="205.7" y="16.6" width="56.6" height="45.4" rx="4" fill="#CBD5E1"/><text x="234.0" y="13.6" text-anchor="middle" font-size="11" fill="#475569">19.5</text><text x="234.0" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY24</text><rect x="274.3" y="16.3" width="56.6" height="45.7" rx="4" fill="#CBD5E1"/><text x="302.6" y="13.3" text-anchor="middle" font-size="11" fill="#475569">19.6</text><text x="302.6" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY25</text><rect x="342.9" y="16.9" width="56.6" height="45.1" rx="4" fill="#CBD5E1"/><text x="371.1" y="13.9" text-anchor="middle" font-size="11" fill="#475569">19.3</text><text x="371.1" y="76" text-anchor="middle" font-size="11" fill="#64748B">FY26</text><rect x="411.4" y="15.5" width="56.6" height="46.5" rx="4" fill="url(#g27)"/><text x="439.7" y="12.5" text-anchor="middle" font-size="11" font-weight="700" fill="#188038">+1–5%</text><text x="439.7" y="76" text-anchor="middle" font-size="11" font-weight="700" fill="#188038">Urvi AI</text></svg>
+            </div>
+            <a class="btn" href="https://wellpulse-app-806277846965.us-central1.run.app" target="_blank" rel="noopener">Launch Urvi AI ↗ <span>live</span></a>
           </div>
         </article>
 
@@ -94,13 +100,14 @@
           <div class="shot hq"><img src="../../assets/media/photos/ongc_hq_vasant_kunj.jpg" alt="ONGC corporate headquarters, Vasant Kunj, New Delhi"><span class="place">ONGC Corporate HQ, New Delhi</span><span class="credit">Photo: Biswarup Ganguly, CC BY 3.0</span></div>
           <div class="body">
             <div class="verb">Financial &amp; people governance</div>
-            <div class="agent">Yukti</div>
-            <p class="problem">Decisions on people and capital are made on scattered data.</p>
+            <div class="agent">Yukti AI</div>
+            <p class="problem">Right people, right jobs, right financial decisions.</p>
             <div class="hero">
-              <div class="thesis">Right people.<br>Right jobs.<br><span class="grad">Right financial decisions.</span></div>
-              <div class="cap">across <b>₹40,000 Cr</b> a year of people cost and capex</div>
+              <div class="big grad">₹40,000<small> Cr</small></div>
+              <div class="cap">a year of people and capital decisions, governed</div>
             </div>
-            <a class="btn" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Launch Yukti ↗ <span>sign-in</span></a>
+            <div class="facts"><div class="f"><span>People</span><b>~24,000</b></div><div class="f"><span>Employee cost a year</span><b>₹10,211 Cr</b></div><div class="f"><span>Capex plan, FY27</span><b>₹30,000 Cr</b></div></div>
+            <a class="btn" href="https://yukti-ai-b6cmgrx7ka-el.a.run.app" target="_blank" rel="noopener">Launch Yukti AI ↗ <span>sign-in</span></a>
           </div>
         </article>
       </div>

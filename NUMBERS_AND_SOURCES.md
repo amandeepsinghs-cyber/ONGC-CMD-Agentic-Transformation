@@ -51,3 +51,8 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - **Cost (Drishti):** ~₹16,500 Cr drilling spend in FY26 · historically 25–30% offshore rig time lost to NPT (CAG) · ONGC's RTDOC has already saved 393 rig days
 - **Revenue (Urvi):** 20.5 MMT crude + 20.0 BCM gas · every 1% of production ≈ ₹1,200 Cr a year · fields decline 6–7% a year
 - **Governance (Yukti):** no numbers needed on the slide
+
+## 6 · Update 21-Nov (your instructions)
+- **Drishti AI:** now saves **20%** of NPT losses: ₹15,150 Cr × 23% × 20% = ₹697 Cr ≈ **₹700 Cr a year** (illustrative). The benchmark case is unchanged at ₹2,100 Cr.
+- **Urvi AI scenarios:** 1% / 3% / 5% of FY26 crude + gas sales (₹1,20,140 Cr) = **₹1,200 / ₹3,600 / ₹6,000 Cr a year** (illustrative).
+- **Urvi AI production chart:** ONGC standalone crude oil FY21–FY26 = 20.273, 19.545, 19.584, 19.471, 19.598, 19.332 MMT, from Yukti AI `fact_production_annual` (ONGC Annual Report FY25 p. 12; FY26 p. 53). Bars are zero-based; the "Urvi AI" bar is illustrative (+1–5%).
