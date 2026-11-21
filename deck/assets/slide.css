@@ -134,7 +134,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Slide 05: Gemini Enterprise + ask ---------- */
 .ladder { margin-top: 64px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-.rung { min-height: 340px; border-radius: 22px; padding: 48px 44px 52px; background: #FFFFFF; border: 1px solid var(--line); border-top: 6px solid var(--c); box-shadow: 0 24px 60px -30px rgba(15, 23, 42, 0.25); }
+.rung { min-height: 290px; border-radius: 22px; padding: 48px 44px 52px; background: #FFFFFF; border: 1px solid var(--line); border-top: 6px solid var(--c); box-shadow: 0 24px 60px -30px rgba(15, 23, 42, 0.25); }
 .rung .k { font-family: var(--mono); font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--c); }
 .rung .t { font-family: var(--display); font-size: 52px; font-weight: 700; color: var(--white); margin-top: 12px; letter-spacing: -0.8px; }
 .rung .d { font-size: 28px; line-height: 1.45; color: var(--body); margin-top: 12px; }
