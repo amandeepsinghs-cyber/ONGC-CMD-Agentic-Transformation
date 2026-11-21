@@ -12,14 +12,14 @@ Open [`deck/index.html`](deck/index.html) in Chrome. Use ← / → to move betwe
 | 01 | Title (unchanged from the ONGC presentation) | `deck/working_deck/pages/page_00.html` |
 | 02 | Prelude: reduce cost · increase revenue · governance → Drishti AI, Urvi AI, Yukti AI | `deck/working_deck/pages/page_01.html` |
 | 03 | Three problems: problem, headline number, demo link | `deck/working_deck/pages/page_02.html` |
-| 04 | Agentic workforce + well log digitisation demo | `deck/working_deck/pages/page_03.html` |
-| 05 | Gemini Enterprise: no-code to high-code, and the proposal | `deck/working_deck/pages/page_04.html` |
+| 04 | Gemini Enterprise: a portfolio of AI agents, no-code to high-code | `deck/working_deck/pages/page_03.html` |
+| 05 | Agentic workforce + well log digitisation demo (real agent output, value cursor) | `deck/working_deck/pages/page_04.html` |
 | 06 | Structural resilience (Jenga analogy) | `deck/working_deck/pages/page_05.html` |
 | 07 | Why Google | `deck/working_deck/pages/page_06.html` |
 | 08 | The engagement: 100 days to proof of value | `deck/working_deck/pages/page_07.html` |
 | A | Appendix: numbers & sources | `deck/working_deck/pages/page_08.html` |
 
-The full 33-role workforce map is linked from slide 04: `deck/working_deck/pages/workforce_map.html`.
+The full 33-role workforce map is linked from slide 05: `deck/working_deck/pages/workforce_map.html`.
 
 ## Live demos
 | Pillar | Agent | Link |
