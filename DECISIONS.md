@@ -6,7 +6,8 @@ Source of requirements: [Verbatims/verbatims.md](Verbatims/verbatims.md)
 The title slide stays **exactly as presented to ONGC** (from `ONGC-Agentic-AI-transformation-slidedeck-CXOs`, Stage 00, locked golden master). Do not edit it.
 
 ## D-02 · Core message (use as sub-heading) — DO NOT FORGET
-> **Agentic Transformation can transform ONGC into an Agentic organisation — boosting revenue, decreasing costs, while enabling robust financial and people governance.**
+> **Agentic Transformation of ONGC will boost revenue, decrease costs and enable robust financial and people governance.**
+> Updated 22-Nov at your request (simplified; was: "Agentic Transformation can transform ONGC into an Agentic organisation — boosting revenue, decreasing costs, while enabling robust financial and people governance.").
 
 ## D-03 · Narrative arc
 Reduce cost → increase revenue → financial & people governance. Three demos:

@@ -2,7 +2,7 @@
 
 Short deck and supporting material for the meeting with the ONGC CMD.
 
-> **Agentic Transformation can transform ONGC into an Agentic organisation — boosting revenue, decreasing costs, while enabling robust financial and people governance.**
+> **Agentic Transformation of ONGC will boost revenue, decrease costs and enable robust financial and people governance.**
 
 ## Open the deck
 Open [`deck/index.html`](deck/index.html) in Chrome. Use ← / → to move between slides and `F` for fullscreen.
