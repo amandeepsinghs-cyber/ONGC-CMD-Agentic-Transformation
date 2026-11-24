@@ -73,3 +73,7 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - FY27 is **lower** than FY26: capex revised down ~16% to ₹30,000 Cr. Samudra Manthan (₹84,084 Cr, PIB 3 Aug 2026) is a government scheme; CMD: "We may not take (funding from the government)". It is not in ONGC's capex figures.
 - Audited cross-check: FY26 cash flow "Exploratory and development drilling" ₹1,19,760.85 Mn = ₹11,976 Cr (AR FY26, PDF p.300 / printed p.298; local copy sources/ONGC_reports/ONGC_AR_FY2025-26.pdf). It differs from the ₹16,565 Cr press figure (likely budgeted capex vs cash paid; unverified).
 - Drishti AI 20% saving row removed from the card (20% of ₹18,700 Cr = ₹3,740 Cr to FY31, for verbal use). Supersedes §8.
+
+## 10 · Update 24-Nov: Drishti AI big number = annual NPT cost (approved)
+- Big number **₹3,100 Cr a year**: FY26 drilling capex ₹16,565 Cr (PSUWatch) × 18.7% NPT (FY24, ONGC Corporate Presentation p.14) = ₹3,098 Cr. Caption: "a year of drilling spend on non-productive rig time". Annual, so it is comparable with the Urvi AI and Yukti AI cards.
+- ₹18,700 Cr (₹1 lakh Cr deepwater to FY31 × 18.7%) moved to a row. Illustrative: NPT is a share of rig time, used as a proxy for spend.

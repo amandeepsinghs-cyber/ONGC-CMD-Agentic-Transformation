@@ -32,3 +32,6 @@ Approved: drop the CAG report and the 9% benchmark entirely. Drishti AI big numb
 
 ## 24-Nov · Drishti AI = ₹18,700 Cr NPT at risk to FY31
 Approved: show FY26 actual, FY27 plan and ₹1 lakh Cr deepwater to FY31; big number ₹18,700 Cr (18.7% × ₹1 lakh Cr). Footer sources made clickable. Attribution corrected to "PSUWatch, 31 Aug 2026".
+
+## 24-Nov · Drishti AI big number ₹3,100 Cr a year
+Approved: annual NPT cost (FY26 ₹16,565 Cr × 18.7%) as the big number, consistent with Urvi/Yukti annual figures; ₹18,700 Cr deepwater exposure to FY31 as a row.
