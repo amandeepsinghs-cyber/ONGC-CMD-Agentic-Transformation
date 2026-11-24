@@ -77,3 +77,9 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 ## 10 · Update 24-Nov: Drishti AI big number = annual NPT cost (approved)
 - Big number **₹3,100 Cr a year**: FY26 drilling capex ₹16,565 Cr (PSUWatch) × 18.7% NPT (FY24, ONGC Corporate Presentation p.14) = ₹3,098 Cr. Caption: "a year of drilling spend on non-productive rig time". Annual, so it is comparable with the Urvi AI and Yukti AI cards.
 - ₹18,700 Cr (₹1 lakh Cr deepwater to FY31 × 18.7%) moved to a row. Illustrative: NPT is a share of rig time, used as a proxy for spend.
+
+## 11 · Update 24-Nov: deepwater leakage rounded to ~₹20,000 Cr (user instruction)
+- Row now reads "~20% leakage on ₹1 lakh Cr deepwater to FY31: ~₹20,000 Cr". 20% is a ballpark between ONGC's own 22.7% (FY23) and 18.7% (FY24), average 20.7% (Corporate Presentation, Jun 2024, p.14). Replaces ₹18,700 Cr (18.7%).
+
+## 12 · Update 24-Nov: one NPT rate (~20%) for the whole card (user decision)
+- Big number **~₹3,300 Cr a year** = ₹16,565 Cr × 20% (₹3,313 Cr). Deepwater row ~₹20,000 Cr = ₹1 lakh Cr × 20%. Supersedes ₹3,100 Cr (§10).

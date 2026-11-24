@@ -35,3 +35,9 @@ Approved: show FY26 actual, FY27 plan and ₹1 lakh Cr deepwater to FY31; big nu
 
 ## 24-Nov · Drishti AI big number ₹3,100 Cr a year
 Approved: annual NPT cost (FY26 ₹16,565 Cr × 18.7%) as the big number, consistent with Urvi/Yukti annual figures; ₹18,700 Cr deepwater exposure to FY31 as a row.
+
+## 24-Nov · Deepwater row ~₹20,000 Cr at ~20%
+User: pitch ~20% inefficiency (between 22.7% and 18.7%); easier to remember. Row changed from ₹18,700 Cr to ~₹20,000 Cr.
+
+## 24-Nov · ~20% NPT for both numbers
+User: use 20% for both. Big number ~₹3,300 Cr a year; deepwater row ~₹20,000 Cr to FY31.
