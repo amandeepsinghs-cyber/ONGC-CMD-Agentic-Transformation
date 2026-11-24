@@ -29,3 +29,6 @@ Approved by the user: use ONGC's own FY24 NPT of 18.7% (Corporate Presentation, 
 
 ## 24-Nov · CAG 2015 removed; headline ₹600 Cr
 Approved: drop the CAG report and the 9% benchmark entirely. Drishti AI big number = ₹600 Cr a year if ONGC repeats its FY24 NPT gain (22.7% → 18.7%). Only ONGC's own figures on the card.
+
+## 24-Nov · Drishti AI = ₹18,700 Cr NPT at risk to FY31
+Approved: show FY26 actual, FY27 plan and ₹1 lakh Cr deepwater to FY31; big number ₹18,700 Cr (18.7% × ₹1 lakh Cr). Footer sources made clickable. Attribution corrected to "PSUWatch, 31 Aug 2026".
