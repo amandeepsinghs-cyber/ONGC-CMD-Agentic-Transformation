@@ -41,3 +41,6 @@ User: pitch ~20% inefficiency (between 22.7% and 18.7%); easier to remember. Row
 
 ## 24-Nov · ~20% NPT for both numbers
 User: use 20% for both. Big number ~₹3,300 Cr a year; deepwater row ~₹20,000 Cr to FY31.
+
+## 24-Nov · Slide 2 headline
+"India’s Energy Anchor Leading the Agentic Transformation to Secure India’s Energy Future" (was "…for India’s Energy Security"). Presenter voiceover: "We sincerely believe that…". Title slide left unchanged.
