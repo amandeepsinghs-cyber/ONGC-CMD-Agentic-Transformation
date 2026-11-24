@@ -17,7 +17,6 @@
 | Well Log Digitisation Agent | Runs inside Gemini Enterprise | |
 
 ## Key sources
-- CAG Report No. 39 of 2015 (ONGC rig NPT 19–23%, benchmark 5–12%): https://cag.gov.in/en/audit-report/details/15117
-- Full CAG report PDF: https://d1jmc0u14z2tmp.cloudfront.net/uploads/download_audit_report/2015/Union_Commercial_Performance_Utilisation_Rigs_39_2015.pdf
+- ONGC Corporate Presentation, 28 Jun 2024, p.14 (rig NPT 22.7% → 18.7%): https://amandeepsinghs-cyber.github.io/ONGC-CMD-Agentic-Transformation/sources/ONGC_reports/ONGC_CorpPres_Jun2024.pdf#page=14 · official: https://ongcindia.com/documents/77751/2660534/Corporateppt_28.06.2024.pdf/31621030-80f1-812a-17f1-126ed2a8b295 · archived: https://web.archive.org/web/20241121183101/https://ongcindia.com/documents/77751/2660534/Corporateppt_28.06.2024.pdf/31621030-80f1-812a-17f1-126ed2a8b295
 - ONGC drilling budget FY26 / FY27 plan (CMD press briefing, PSUWatch, 31 Aug 2026): https://psuwatch.com/newsupdates/ongc-bets-rs-1-lakh-cr-on-deepwater-but-says-only-a-big-discovery-will-lift-its-flat-output
 - Full list: [NUMBERS_AND_SOURCES.md](NUMBERS_AND_SOURCES.md)

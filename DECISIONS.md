@@ -26,3 +26,6 @@ Headline numbers only, e.g. **₹18,000 Cr budget (25–30% goes into NPT)**. Ev
 
 ## 24-Nov · Drishti AI numbers re-based to 18.7% NPT
 Approved by the user: use ONGC's own FY24 NPT of 18.7% (Corporate Presentation, Jun 2024, p.14) instead of the 2015 CAG 23%, because a 10-year-old figure could backfire. Big number ₹1,470 Cr a year (to the 9% benchmark); Drishti AI 20% cut ₹570 Cr a year. Clickable source superscripts added on slide 2. See NUMBERS_AND_SOURCES.md §7.
+
+## 24-Nov · CAG 2015 removed; headline ₹600 Cr
+Approved: drop the CAG report and the 9% benchmark entirely. Drishti AI big number = ₹600 Cr a year if ONGC repeats its FY24 NPT gain (22.7% → 18.7%). Only ONGC's own figures on the card.

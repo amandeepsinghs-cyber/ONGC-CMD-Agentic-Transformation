@@ -62,3 +62,7 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - The figure is **not in any ONGC Annual Report** (FY17–FY26 checked).
 - Benchmark 9% = our midpoint of the 5–12% range in CAG Report No. 39 of 2015, p.41 (PDF p.52).
 - NPT cost: 15,150 × 18.7% = ₹2,833 Cr. Benchmark case: 15,150 × (18.7% − 9%) = **₹1,470 Cr a year** (slide big number). Drishti AI 20%: 2,833 × 20% = **₹570 Cr a year**. Supersedes the ₹2,100 Cr / ₹700 Cr figures in sections 4 and 6.
+
+## 8 · Update 24-Nov: CAG 2015 dropped from the deck (approved)
+- The user judged that a 2015 government audit could leave a bad taste with the CMD. All CAG references and the 9% benchmark are removed from the slides.
+- New Drishti AI headline: ONGC repeats its own FY24 NPT gain (22.7% → 18.7%, 4 points): 15,150 × 4% = ₹606 Cr ≈ **₹600 Cr a year**. The 20% cut of NPT losses stays at **₹570 Cr a year**. Sole NPT source: ONGC Corporate Presentation, Jun 2024, p.14. Supersedes ₹1,470 Cr in §7.
