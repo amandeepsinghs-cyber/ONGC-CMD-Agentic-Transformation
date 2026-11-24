@@ -23,3 +23,6 @@ Then: problem statement + demo link page → agentic workforce (+ well log digit
 ## D-04 · Numbers
 Headline numbers only, e.g. **₹18,000 Cr budget (25–30% goes into NPT)**. Every number must be **verified with a cited source**; anything not verified is labelled *unverified*. See [NUMBERS_AND_SOURCES.md](NUMBERS_AND_SOURCES.md).
 > Verification note (21-Nov): the verified FY26 drilling spend is **₹16,565 Cr**, not ₹18,000 Cr. The 25–30% NPT figure holds for offshore (CAG). Final wording is pending your approval.
+
+## 24-Nov · Drishti AI numbers re-based to 18.7% NPT
+Approved by the user: use ONGC's own FY24 NPT of 18.7% (Corporate Presentation, Jun 2024, p.14) instead of the 2015 CAG 23%, because a 10-year-old figure could backfire. Big number ₹1,470 Cr a year (to the 9% benchmark); Drishti AI 20% cut ₹570 Cr a year. Clickable source superscripts added on slide 2. See NUMBERS_AND_SOURCES.md §7.

@@ -56,3 +56,9 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - **Drishti AI:** now saves **20%** of NPT losses: ₹15,150 Cr × 23% × 20% = ₹697 Cr ≈ **₹700 Cr a year** (illustrative). The benchmark case is unchanged at ₹2,100 Cr.
 - **Urvi AI scenarios:** 1% / 3% / 5% of FY26 crude + gas sales (₹1,20,140 Cr) = **₹1,200 / ₹3,600 / ₹6,000 Cr a year** (illustrative).
 - **Urvi AI production chart:** ONGC standalone crude oil FY21–FY26 = 20.273, 19.545, 19.584, 19.471, 19.598, 19.332 MMT, from Yukti AI `fact_production_annual` (ONGC Annual Report FY25 p. 12; FY26 p. 53). Bars are zero-based; the "Urvi AI" bar is illustrative (+1–5%).
+
+## 7 · Update 24-Nov: NPT re-based to ONGC's own FY24 figure (approved)
+- **NPT 18.7% in FY24** (22.7% in FY23): "NPT in drilling rigs reduced to 18.7% as compared to 22.7% in FY'23". Source: ONGC Corporate Presentation, 28 Jun 2024, PDF p.14 ([local copy](sources/ONGC_reports/ONGC_CorpPres_Jun2024.pdf)). Official URL https://ongcindia.com/documents/77751/2660534/Corporateppt_28.06.2024.pdf/31621030-80f1-812a-17f1-126ed2a8b295 (unreachable from Cloudtop and, on 24-Nov, for the user). Archived copy: https://web.archive.org/web/20241121183101/https://ongcindia.com/documents/77751/2660534/Corporateppt_28.06.2024.pdf/31621030-80f1-812a-17f1-126ed2a8b295 (byte-identical to the local copy, SHA-256 b1094665…3c5e).
+- The figure is **not in any ONGC Annual Report** (FY17–FY26 checked).
+- Benchmark 9% = our midpoint of the 5–12% range in CAG Report No. 39 of 2015, p.41 (PDF p.52).
+- NPT cost: 15,150 × 18.7% = ₹2,833 Cr. Benchmark case: 15,150 × (18.7% − 9%) = **₹1,470 Cr a year** (slide big number). Drishti AI 20%: 2,833 × 20% = **₹570 Cr a year**. Supersedes the ₹2,100 Cr / ₹700 Cr figures in sections 4 and 6.
