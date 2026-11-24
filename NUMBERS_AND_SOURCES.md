@@ -88,3 +88,8 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - Base ₹1,20,140 Cr = FY26 standalone Sale of Product, crude oil ₹8,38,102 Mn + natural gas ₹3,63,299 Mn (AR FY26, "A Decade of Operational and Financial Excellence – Standalone", printed p.21 / PDF p.23). 1% / 3% / 5% = ₹1,201 / ₹3,604 / ₹6,007 Cr; the percentages are our illustrative scenarios (no external source).
 - Appendix production line corrected: the old "20.5 MMT crude, 20.0 BCM gas" was not traced to the AR; replaced with FY26 quantity sold 18.79 MMT / 15.49 BCM (same table).
 - Source link (AR FY26, p.21) added on the Urvi AI card.
+
+## 14 · Update 24-Nov: Yukti AI sourcing (approved)
+- Employee cost ₹10,211 Cr = FY26 "Expenditure on Employees" ₹1,02,107 Mn (AR FY26 decade table, printed p.22 / PDF p.24; also Note 35.1, printed p.352 / PDF p.354, Sub Total 102,107.09).
+- Headcount: 23,117 employees FY26 (same table) → "~23,000" on the card, "23,000+" on slide 4 (was ~24,000 / 24,000; FY25 was 24,368).
+- Capex plan FY27 ₹30,000 Cr (PSUWatch). Big number ₹40,000 Cr kept, caption "a year of people and capital spend, governed by AI" (spend, not value). New row: every 1% better decision ≈ ₹400 Cr a year (illustrative).
