@@ -93,3 +93,10 @@ Local copies of the sources are in [sources/](sources/). Checked 21-Nov-2026.
 - Employee cost ₹10,211 Cr = FY26 "Expenditure on Employees" ₹1,02,107 Mn (AR FY26 decade table, printed p.22 / PDF p.24; also Note 35.1, printed p.352 / PDF p.354, Sub Total 102,107.09).
 - Headcount: 23,117 employees FY26 (same table) → "~23,000" on the card, "23,000+" on slide 4 (was ~24,000 / 24,000; FY25 was 24,368).
 - Capex plan FY27 ₹30,000 Cr (PSUWatch). Big number ₹40,000 Cr kept, caption "a year of people and capital spend, governed by AI" (spend, not value). New row: every 1% better decision ≈ ₹400 Cr a year (illustrative).
+
+## 15 · Update 24-Nov: page numbers on all AR citations
+- Slide 2 footer now cites AR FY26 pp.21–22, Corporate Presentation p.14, PSUWatch 31 Aug 2026 (all linked).
+- RTDOC proof point corrected to printed p.100 (PDF p.102); previously cited as p.99.
+- Workovers: 2,320 wells, printed p.97 (PDF p.99); workover operations ₹21,909.13 Mn = ₹2,191 Cr, printed p.351 (PDF p.353).
+
+## 16 · Update 24-Nov: "Every 1% better decision ~₹400 Cr" row removed from the Yukti AI card and appendix (user instruction). Card photos restored to 250 px.
