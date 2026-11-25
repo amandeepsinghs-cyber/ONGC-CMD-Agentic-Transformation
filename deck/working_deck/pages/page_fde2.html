@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How FDEs Work | ONGC</title>
+  <link rel="stylesheet" href="../../assets/slide.css">
+  <script src="../../assets/slide.js"></script>
+<style>
+  .top a.home { display: flex; align-items: center; } .top a.home img { display: block; }
+  /* Source: Forward Deployed Engineering_ Real AI Impact.pptx, slide 2. Wording verbatim except the footnote
+     "FDE: stands for Forward Development Engineer" -> "FDE stands for Forward Deployed Engineer" (approved).
+     Panel media: the source's animated GIF screenshots, re-encoded as looping MP4 (posters = a mid frame). */
+  .panels { margin-top: 40px; flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; position: relative; z-index: 1; }
+  .pn { display: flex; flex-direction: column; gap: 22px; padding: 24px 22px 22px; border-radius: 22px; background: #FFFFFF;
+        border: 2px solid #A8C7FA; box-shadow: 0 24px 60px -30px rgba(15, 23, 42, 0.25); }
+  .pn .hd { display: grid; place-items: center; height: 68px; border-radius: 14px; background: #4285F4; color: #FFF;
+            font-family: var(--display); font-size: 30px; font-weight: 700; }
+  .pn .shot { flex: 1; display: grid; place-items: center; border-radius: 12px; overflow: hidden; background: #F8FAFD; border: 1px solid var(--line); }
+  .pn video { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+  .base { margin-top: 28px; position: relative; z-index: 1; display: grid; place-items: center; height: 78px; border-radius: 16px;
+          background: #FFFFFF; border: 2px solid #4285F4; font-family: var(--display); font-size: 30px; font-weight: 700; color: var(--blue); }
+  .note { margin-top: 18px; position: relative; z-index: 1; font-size: 19px; color: var(--muted); }
+</style>
+</head>
+<body data-prev="page_fde1.html" data-next="page_08.html">
+  <div class="stage">
+    <div class="bg"></div>
+    <div class="top">
+      <a class="home" href="../../index.html" title="Home"><img src="../../assets/media/wip/image25.png" alt="Google Cloud"></a>
+      <span class="div"></span>
+      <img class="ongc" src="../../assets/media/ongc_logo.svg" alt="ONGC">
+      <span class="sp"></span><span class="sec">13 // How FDEs work</span>
+    </div>
+    <div class="content" style="padding-bottom:64px">
+      <h1 class="h1" style="margin-top:62px; font-size:58px; line-height:1.14; letter-spacing:-1.2px; max-width:1680px">Google Cloud AI FDEs code <span class="grad">hands-on, with customers</span>, to build and deploy Agentic AI in production, at scale, and safely, using <span class="grad">Google Cloud’s Gemini Enterprise</span></h1>
+      <div class="panels">
+        <div class="pn"><div class="hd">Build</div><div class="shot"><video src="../../assets/media/added/fde_build.mp4" poster="../../assets/media/added/fde_build_poster.png" autoplay muted loop playsinline></video></div></div>
+        <div class="pn"><div class="hd">Scale</div><div class="shot"><video src="../../assets/media/added/fde_scale.mp4" poster="../../assets/media/added/fde_scale_poster.png" autoplay muted loop playsinline></video></div></div>
+        <div class="pn"><div class="hd">Govern</div><div class="shot"><video src="../../assets/media/added/fde_govern.mp4" poster="../../assets/media/added/fde_govern_poster.png" autoplay muted loop playsinline></video></div></div>
+        <div class="pn"><div class="hd">Optimize</div><div class="shot"><video src="../../assets/media/added/fde_optimize.mp4" poster="../../assets/media/added/fde_optimize_poster.png" autoplay muted loop playsinline></video></div></div>
+      </div>
+      <div class="base">AI Data Foundation, Threat Defense, Infrastructure</div>
+      <div class="note">FDE stands for Forward Deployed Engineer</div>
+    </div>
+  </div>
+  <nav class="hud"><a href="page_fde1.html">◀</a><span class="n">13 / 13</span><a class="next" href="page_08.html">Appendix ▶</a></nav>
+</body>
+</html>
