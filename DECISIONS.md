@@ -48,3 +48,6 @@ Title slide also changed to "Agentic Transformation to Secure India’s Energy F
 
 ## 25-Nov · Slide 3 re-scoped to ONGC value chain
 Cards: Exploration (de-risk, decision accuracy) · Drilling (reduce NPT) · Production Optimisation (brownfields) · HR & Workforce · Finance & Capital · Legal & Compliance. Outcome-only lines, no demo tags; headline unchanged.
+
+## 25-Nov · D-02 sub-heading reordered (user instruction)
+"Agentic Transformation of ONGC will decrease costs, boost revenue and enable robust financial and people governance." Order now matches the pillars: Reduce cost → Increase revenue → Governance.
