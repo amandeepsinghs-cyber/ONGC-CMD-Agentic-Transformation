@@ -45,3 +45,6 @@ User: use 20% for both. Big number ~₹3,300 Cr a year; deepwater row ~₹20,000
 ## 24-Nov · Slide 2 headline
 "India’s Energy Anchor Leading the Agentic Transformation to Secure India’s Energy Future" (was "…for India’s Energy Security"). Presenter voiceover: "We sincerely believe that…". Title slide left unchanged.
 Title slide also changed to "Agentic Transformation to Secure India’s Energy Future" (user instruction, 24-Nov).
+
+## 25-Nov · Slide 3 re-scoped to ONGC value chain
+Cards: Exploration (de-risk, decision accuracy) · Drilling (reduce NPT) · Production Optimisation (brownfields) · HR & Workforce · Finance & Capital · Legal & Compliance. Outcome-only lines, no demo tags; headline unchanged.
